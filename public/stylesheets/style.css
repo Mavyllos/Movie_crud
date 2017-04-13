@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-size: 24px;
+}
+
+a.all-movies {
+  color: darkblue;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.col-md-6 {
+  margin-top: 20px;
+}
+
+.movie-poster {
+  margin: 2rem auto;
+  height: 250px;
+  width: 175px;
+}
