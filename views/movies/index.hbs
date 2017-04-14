@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Movies Index Page</h1>
   <br>
-  <a href="http://localhost:3000/movies/new" class="all-movies">Add New Movie</a><br>
+  <a href="/movies/new" class="all-movies">Add New Movie</a><br>
   {{#each movies}}
   <div class="row">
     <div class="col-md-2">
@@ -10,7 +10,7 @@
         class="movie-poster">
     </div>
     <div class="col-md-6">
-      <a href="http://localhost:3000/movies/{{ this.id }}">{{ this.title }}</a>
+      <a href="/movies/{{ this.id }}">{{ this.title }}</a>
       <p>
       Director: {{ this.director }}<br>
       Year: {{ this.year }}<br>
